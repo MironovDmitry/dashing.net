@@ -1,17 +1,11 @@
 dashing.net
 ===========
 
-###[See an example of dashing.net running in Windows Azure](http://dashingdotnet.azurewebsites.net/)
+This version of [dashing.net](http://voiddog.github.com/dashing.net/) is a fork of the [dashing.net](http://sbarski.github.com/dashing.net/) direct .net port of the [dashing](http://shopify.github.com/dashing) framework originally created by Shopify.
 
-[dashing.net](http://sbarski.github.com/dashing.net/) is a direct .net port of the [dashing](http://shopify.github.com/dashing) framework originally created by Shopify.
+Unlike the original port this version tries to use options available to it as a result of being based in .NET, whilst trying to preserve compatibility with the core elements of the original by Shopify.
 
 [Check out the Shopify dashing homepage](http://shopify.github.com/dashing).
-
-[dashing.net](http://sbarski.github.com/dashing.net/) allows you to create beautiful dashboards & widgets using html/scss/coffeescript/c#. The dashboard itself is written with asp.net web api/mvc 4. 
-
-We have tried to re-use as much code as possible from dashing to preserve compatibility. Therefore most of the behaviours and conventions used in dashing.net should be identical or closely mirrored to dashing. All widget frontend files (html,scss and coffeescript) can be used directly. Jobs, however, need to be re-implemented in C# or another compatible .net language.
-
-
 
 # License
 Distributed under the [MIT license](https://github.com/sbarski/dashing.net/blob/master/MIT-LICENSE)
