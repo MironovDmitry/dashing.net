@@ -27,7 +27,8 @@ class Dashing.Highcolumn extends Dashing.Widget
 
         plotOptions:
           column:
-            stacking: 'normal'
+            stacking: 'normal',
+            borderWidth: 0
       )
 
   onData: (data) ->

@@ -28,6 +28,8 @@ class Dashing.Highline extends Dashing.Widget
         plotOptions:
           line:
             lineWidth: 4
+            marker:
+              enabled: false
       )  
 
   onData: (data) ->
