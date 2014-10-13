@@ -251,6 +251,7 @@
     <Content Include="Widgets\clock\clock.html" />
     <Content Include="Widgets\comments\comments.html" />
     <Content Include="Widgets\graph\graph.html" />
+    <Content Include="Widgets\highchart\highchart.html" />
     <Content Include="Widgets\highcolumn\highcolumn.html" />
     <Content Include="Widgets\highline\highline.html" />
     <Content Include="Widgets\highpie\highpie.html" />
@@ -307,6 +308,8 @@
     <Content Include="Widgets\rickshawgraph\rickshawgraph.coffee" />
     <Content Include="Widgets\rickshawgraph\rickshawgraph.scss" />
     <Content Include="Widgets\rickshawgraph\rickshawgraph.md" />
+    <Content Include="Widgets\highchart\highchart.coffee" />
+    <Content Include="Widgets\highchart\highchart.scss" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
