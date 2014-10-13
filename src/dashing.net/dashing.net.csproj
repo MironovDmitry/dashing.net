@@ -259,12 +259,6 @@
     <Content Include="Widgets\list\list.html" />
     <Content Include="Widgets\meter\meter.html" />
     <Content Include="Widgets\number\number.html" />
-    <Content Include="Widgets\number\number.js">
-      <DependentUpon>number.coffee</DependentUpon>
-    </Content>
-    <Content Include="Widgets\number\number.min.js">
-      <DependentUpon>number.js</DependentUpon>
-    </Content>
     <Content Include="Widgets\rickshawgraph\rickshawgraph.html" />
     <Content Include="Widgets\switcher\switcher.coffee" />
     <Content Include="Widgets\switcher\switcher.md" />
@@ -313,12 +307,6 @@
     <Content Include="Widgets\rickshawgraph\rickshawgraph.coffee" />
     <Content Include="Widgets\rickshawgraph\rickshawgraph.scss" />
     <Content Include="Widgets\rickshawgraph\rickshawgraph.md" />
-    <Content Include="Widgets\number\number.js.map">
-      <DependentUpon>number.js</DependentUpon>
-    </Content>
-    <Content Include="Widgets\number\number.min.js.map">
-      <DependentUpon>number.min.js</DependentUpon>
-    </Content>
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
