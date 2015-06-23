@@ -204,6 +204,7 @@
     <Content Include="Content\application.min.css">
       <DependentUpon>application.css</DependentUpon>
     </Content>
+    <Content Include="Content\fonts\fontawesome-webfont.svg" />
     <Content Include="Content\logo.png" />
     <Content Include="Content\favicon.ico" />
     <Content Include="Content\rickshaw.css" />
@@ -211,7 +212,6 @@
     <Content Include="Content\vumeter-background.png" />
     <Content Include="Content\css\font-awesome.css" />
     <Content Include="Content\css\font-awesome.min.css" />
-    <Content Include="Content\fonts\fontawesome-webfont.svg" />
     <Content Include="Content\jquery.gridster.css" />
     <Content Include="Content\jquery.gridster.min.css" />
     <Content Include="Scripts\batman.jquery.js" />
@@ -225,10 +225,6 @@
       <DependentUpon>dashing.js</DependentUpon>
     </Content>
     <Content Include="Scripts\highcharts.js" />
-    <Content Include="Content\fonts\fontawesome-webfont.woff" />
-    <Content Include="Content\fonts\fontawesome-webfont.ttf" />
-    <Content Include="Content\fonts\fontawesome-webfont.eot" />
-    <Content Include="Content\fonts\FontAwesome.otf" />
     <Content Include="Content\application.css.map">
       <DependentUpon>application.css</DependentUpon>
     </Content>
@@ -238,6 +234,11 @@
     <Content Include="Scripts\dashing.min.js.map">
       <DependentUpon>dashing.min.js</DependentUpon>
     </Content>
+    <Content Include="Content\fonts\fontawesome-webfont.woff2" />
+    <Content Include="Content\fonts\fontawesome-webfont.woff" />
+    <Content Include="Content\fonts\fontawesome-webfont.ttf" />
+    <Content Include="Content\fonts\fontawesome-webfont.eot" />
+    <Content Include="Content\fonts\FontAwesome.otf" />
     <None Include="Scripts\jquery-2.0.3.intellisense.js" />
     <Content Include="Scripts\jquery-2.0.3.js" />
     <Content Include="Scripts\jquery-2.0.3.min.js" />
