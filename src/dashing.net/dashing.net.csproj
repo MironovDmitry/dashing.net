@@ -211,6 +211,8 @@
       <DependentUpon>application.css</DependentUpon>
     </Content>
     <Content Include="Content\fonts\fontawesome-webfont.svg" />
+    <Content Include="Content\jquery.gridster.css" />
+    <Content Include="Content\jquery.gridster.min.css" />
     <Content Include="Content\logo.png" />
     <Content Include="Content\favicon.ico" />
     <Content Include="Content\rickshaw.css" />
@@ -218,8 +220,6 @@
     <Content Include="Content\vumeter-background.png" />
     <Content Include="Content\css\font-awesome.css" />
     <Content Include="Content\css\font-awesome.min.css" />
-    <Content Include="Content\jquery.gridster.css" />
-    <Content Include="Content\jquery.gridster.min.css" />
     <Content Include="Jobs\dashing.net.jobs.dll">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
