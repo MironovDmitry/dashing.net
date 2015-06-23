@@ -1,6 +1,8 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2012
+# Visual Studio 14
+VisualStudioVersion = 14.0.22823.1
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "dashing.net", "dashing.net\dashing.net.csproj", "{A65082A3-B58D-4322-9628-3F52A34E5614}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "dashing.net.jobs", "dashing.net.jobs\dashing.net.jobs.csproj", "{EFF2BAF0-C702-4355-83B0-C433F787DB68}"
