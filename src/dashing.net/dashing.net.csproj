@@ -317,7 +317,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="bin\" />
     <Folder Include="Jobs\" />
   </ItemGroup>
   <ItemGroup>
