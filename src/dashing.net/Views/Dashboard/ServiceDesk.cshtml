@@ -1,0 +1,53 @@
+﻿<div class="gridster">
+    <ul>       
+        <li data-row="1" data-col="1" data-sizex="2" data-sizey="2">
+            <div data-id="totalRequests" data-view="Number" data-title="Всего заявок" style="background-color:#96bf48;"></div>            
+        </li>
+        <li data-row="3" data-col="1" data-sizex="2" data-sizey="2">
+            <div data-id="sal" data-view="Meter" data-moreinfo="" data-title="SLA" data-min="0" data-max="100"></div>
+        </li>
+        <li data-row="5" data-col="1" data-sizex="2" data-sizey="2">
+            <div data-id="mttr" data-view="Number" data-title="MTTR"></div>
+        </li>
+        <li data-row="7" data-col="1" data-sizex="2" data-sizey="2">
+            <div data-id="mtta" data-view="Number" data-title="MTTA"></div>
+        </li>
+
+
+        <li data-row="1" data-col="3" data-sizex="5" data-sizey="2">
+            <div data-id="requestsChart" data-view="Highchart" data-title="Количество заявок по месяцам"></div>
+        </li>
+        <li data-row="3" data-col="3" data-sizex="5" data-sizey="2">
+            <div data-id="slaChart" data-view="Highchart" data-title="SLA по месяцам"></div>
+        </li>
+        <li data-row="5" data-col="3" data-sizex="5" data-sizey="2">
+            <div data-id="mttrChart" data-view="Highchart" data-title="MTTR по месяцам"></div>
+        </li>
+        <li data-row="7" data-col="3" data-sizex="5" data-sizey="2">
+            <div data-id="mttaChart" data-view="Highchart" data-title="MTTA по месяцам"></div>
+        </li>
+        
+
+        <li data-row="1" data-col="8" data-sizex="3" data-sizey="3">
+            <div data-id="breachedList" data-view="Toprequeststable" data-title="ТОП-5 просроченных заявок" style="background-color:#FF8080;"></div>
+        </li>
+        <li data-row="4" data-col="8" data-sizex="3" data-sizey="1">
+            <div data-id="breachedWorkordersCount" data-view="Smallnumber" data-title="Просроченно заявок" style="background-color:#FF8080;"></div>
+        </li>
+        <li data-row="5" data-col="8" data-sizex="3" data-sizey="3">
+            <div data-id="soonBreachedList" data-view="Toprequeststable" data-title="ТОП-5 истекающих заявок" style="background-color:#ff9618;"></div>
+        </li>
+        <li data-row="8" data-col="8" data-sizex="3" data-sizey="1">
+            <div data-id="soonBreachedWorkordersCount" data-view="Smallnumber" data-title="Истекает заявок" style="background-color:#ff9618;"></div>
+        </li>
+    </ul>   
+</div>
+
+<script type="text/javascript">
+    $(function () {
+            // These settings override the defaults set in application.coffee. You can do this on a per dashboard basis.
+        Dashing.gridsterLayout('[{"col":1,"row":1},{"col":1,"row":3},{"col":1,"row":5},{"col":1,"row":7},{"col":3,"row":1},{"col":3,"row":3},{"col":3,"row":5},{"col":3,"row":7},{"col":8,"row":1},{"col":8,"row":4},{"col":8,"row":5},{"col":8,"row":8}]');
+        Dashing.widget_base_dimensions = [150, 150];
+        Dashing.numColumns = 10;
+    });
+</script>

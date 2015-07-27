@@ -280,6 +280,7 @@
     <Content Include="Global.asax" />
     <Content Include="Scripts\dashing.coffee" />
     <Content Include="Scripts\signalr-hubs.js" />
+    <Content Include="Views\Dashboard\Sampletv.cshtml" />
     <Content Include="Views\Error\404.html" />
     <Content Include="Widgets\clock\clock.html" />
     <Content Include="Widgets\comments\comments.html" />
@@ -289,11 +290,14 @@
     <Content Include="Widgets\image\image.html" />
     <Content Include="Widgets\list\list.html" />
     <Content Include="Widgets\meter\meter.html" />
+    <Content Include="Widgets\smallnumber\smallnumber.html" />
     <Content Include="Widgets\number\number.html" />
     <Content Include="Widgets\rickshawgraph\rickshawgraph.html" />
     <Content Include="Widgets\switcher\switcher.coffee" />
     <Content Include="Widgets\switcher\switcher.md" />
+    <Content Include="Widgets\table\table.html" />
     <Content Include="Widgets\text\text.html" />
+    <Content Include="Widgets\toprequeststable\toprequeststable.html" />
     <Content Include="Widgets\vumeter\vumeter.html" />
     <Content Include="Scripts\es5-shim.js" />
     <Content Include="Scripts\es5-shim.min.js" />
@@ -334,6 +338,13 @@
     <Content Include="Widgets\highchart\highchart.coffee" />
     <Content Include="Widgets\highchart\highchart.scss" />
     <Content Include="Scripts\jquery-2.1.4.min.map" />
+    <Content Include="Views\Dashboard\ServiceDesk.cshtml" />
+    <Content Include="Widgets\toprequeststable\toprequeststable.coffee" />
+    <Content Include="Widgets\toprequeststable\toprequeststable.scss" />
+    <Content Include="Widgets\table\table.coffee" />
+    <Content Include="Widgets\table\table.scss" />
+    <Content Include="Widgets\smallnumber\smallnumber.coffee" />
+    <Content Include="Widgets\smallnumber\smallnumber.scss" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -349,9 +360,6 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Scripts\application.coffee" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="Views\Dashboard\Sampletv.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Views\Dashboard\Sample.cshtml" />

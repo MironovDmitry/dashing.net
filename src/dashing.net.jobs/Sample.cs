@@ -38,7 +38,7 @@ namespace dashing.net.jobs
             
             CurrentValuation = _rand.Next(100);
 
-            Dashing.SendMessage(new {current = CurrentValuation, last = LastValuation, id = "sample"});
+            //Dashing.SendMessage(new {current = CurrentValuation, last = LastValuation, id = "sample"});
         }
     }
 }

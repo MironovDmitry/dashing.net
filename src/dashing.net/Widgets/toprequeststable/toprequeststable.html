@@ -1,0 +1,41 @@
+﻿<h1 class="title" data-bind="title"></h1>
+
+<table>       
+    <tr data-foreach-row="rows" data-bind-class="row.class">
+        <!--<td>
+            <span class="workorderId" data-bind="row.workorderId"></span>
+        </td>
+        <td>
+            <span class="workorderTitle" data-bind="row.workorderTitle"></span>
+        </td>
+        <td>
+            <span class="workorderOwner" data-bind="row.workorderOwner"></span>
+        </td>
+        <td>
+            <span class="workorderDelay" data-bind="row.workorderDelay"></span>
+        </td>-->
+        <td>
+            <table>
+                <tr>
+                    <td width="90%" align="left">
+                        <span class="workorderId" data-bind="row.workorderId"></span>
+                        &nbsp;
+                        <span class="workorderOwner" data-bind="row.workorderOwner"></span>
+                    </td>
+                    <td rowspan="2" width="10%" align="center" valign="middle">
+                        <span class="workorderDelay" data-bind="row.workorderDelay"></span>
+                    </td>
+                </tr>
+                <tr>
+                    <td width="90%" align="left">
+                        <span class="workorderTitle" data-bind="row.workorderTitle"></span>                        
+                    </td>
+                    
+                </tr>
+            </table>
+        </td>
+    </tr>    
+</table>
+
+<p class="more-info" data-bind="moreinfo"></p>
+<p class="updated-at" data-bind="updatedAtMessage"></p>

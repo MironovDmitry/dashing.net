@@ -47,7 +47,7 @@ namespace dashing.net.jobs
 
             _points.Enqueue(new Tuple<int, int>(_lastX, _rand.Next(50)));
 
-            Dashing.SendMessage(new {id = "convergence", points = _points.Select(m => new {x = m.Item1, y = m.Item2})});
+            //Dashing.SendMessage(new {id = "convergence", points = _points.Select(m => new {x = m.Item1, y = m.Item2})});
         }
 
     }

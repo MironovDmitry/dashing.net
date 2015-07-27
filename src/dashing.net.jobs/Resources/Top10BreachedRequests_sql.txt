@@ -1,0 +1,18 @@
+select wo.WORKORDERID
+	,wo.TITLE
+	,sd.NAME 'ServiceName'
+	,ti.FIRST_NAME 'Technician'		
+	,DATEDIFF(Now(),FROM_UNIXTIME(wo.DUEBYTIME/1000)) 'delay'
+	
+from workorder wo
+	left join workorderstates ws on ws.WORKORDERID = wo.WORKORDERID
+	left join servicedefinition sd on sd.SERVICEID = wo.SERVICEID
+	LEFT JOIN SDUser sdu ON sdu.USERID = ws.OWNERID
+	LEFT JOIN AaaUser ti ON sdu.USERID=ti.USER_ID
+where ws.STATUSID <> 3
+	and ((ws.CATEGORYID <> 1803 
+		or ws.CATEGORYID is null)
+		and (ws.REQUESTTYPEID <> 1201))
+	and ws.ISOVERDUE = 1
+ORDER BY delay desc
+Limit 5

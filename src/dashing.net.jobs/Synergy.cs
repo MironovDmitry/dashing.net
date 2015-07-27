@@ -26,7 +26,7 @@ namespace dashing.net.jobs
 
         protected void SendMessage(object message)
         {
-            Dashing.SendMessage(new {value = _rand.Next(100), id = "synergy"});
+            //Dashing.SendMessage(new {value = _rand.Next(100), id = "synergy"});
         }
     }
 }

@@ -44,7 +44,7 @@ namespace dashing.net.jobs
                 _buzzwordCounts.Add(random, 1);
             }
 
-            Dashing.SendMessage(new {id = "buzzwords", items = _buzzwordCounts.Select(m => new {label = m.Key, value = m.Value})});
+            //Dashing.SendMessage(new {id = "buzzwords", items = _buzzwordCounts.Select(m => new {label = m.Key, value = m.Value})});
         }
     }
 }

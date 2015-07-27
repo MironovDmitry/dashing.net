@@ -37,7 +37,7 @@ namespace dashing.net.jobs
 
             CurrentKarma = _rand.Next(200000);
 
-            Dashing.SendMessage(new {current = CurrentKarma, last = LastKarma, id = "karma"});
+            //Dashing.SendMessage(new {current = CurrentKarma, last = LastKarma, id = "karma"});
         }
     }
 }

@@ -1,0 +1,10 @@
+select count(wo.WORKORDERID) 'soonBreachedWorkordersCount'		
+from workorder wo
+	left join workorderstates ws on ws.WORKORDERID = wo.WORKORDERID	
+where ws.STATUSID <> 3
+	and ((ws.CATEGORYID <> 1803 
+		or ws.CATEGORYID is null)
+		and (ws.REQUESTTYPEID <> 1201))
+	and ws.ISOVERDUE = 0	
+	and ((time_to_sec(timediff(from_unixtime(wo.DUEBYTIME/1000),now())) / 60) <= 60
+		and (time_to_sec(timediff(from_unixtime(wo.DUEBYTIME/1000),now())) / 60) >=0)
